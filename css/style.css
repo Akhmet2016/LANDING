@@ -1,0 +1,400 @@
+body {
+     font-family: 'Roboto', sans-serif;
+     font-size: 14px;
+}
+ .fw-5 {
+     font-weight: 500 !important 
+}
+ .fw-4 {
+     font-weight: 400 !important 
+}
+ .fw-3 {
+     font-weight: 300 !important 
+}
+ .fw-1 {
+     font-weight: 100 !important 
+}
+ .clearfix:before, .clearfix:after {
+     content: "";
+     display: table;
+}
+ .clearfix:after {
+     clear: both;
+}
+ .clearfix {
+     zoom: 1;
+}
+ .left {
+     float: left;
+}
+ .right {
+     float: right;
+}
+ .row-flex {
+     display: flex;
+     flex-flow: row wrap;
+}
+ .hidden {
+     display: none;
+}
+ .left_mid {
+     position: relative;
+     left: 1%;
+}
+ .middle {
+     padding-top: 0.6em;
+}
+/*===================================================================== header =====================================================================*/
+ .caption {
+     background: #fff;
+     background-image: url(../images/header/bg02.png), url(../images/header/bg02.png), url(../images/header/bg01.png);
+     background-position: top left, top left, top left;
+     background-size: 100% 6em, 100% 6em, auto;
+     background-repeat: no-repeat, no-repeat, repeat;
+}
+ #caption {
+     color: #616161;
+     font-size: 2em;
+     text-align: center;
+     font-weight: 500;
+     letter-spacing: -1px;
+}
+ #communications {
+     font-size: 0.7em;
+     text-align: center;
+     padding: 5px;
+}
+ .button {
+     -moz-appearance: none;
+     -webkit-appearance: none;
+     -ms-appearance: none;
+     appearance: none;
+     background: none;
+     border-radius: 5px;
+     border: solid 2px #FE6868;
+     color: #FE6868;
+     font-size: 0.9em;
+     cursor: pointer;
+     display: inline-block;
+     padding: 0 20px;
+     line-height: 38px;
+     min-width: 10px;
+     text-align: center;
+     text-decoration: none;
+     font-weight: 400;
+     letter-spacing: -1px;
+}
+ .button:hover {
+     border-color: #DB3434;
+     color: #DB3434;
+     text-decoration: none;
+}
+ .button:active {
+     border-color: #000;
+     color: #000;
+     text-decoration: none;
+}
+ a:focus {
+     outline: none;
+}
+ a:hover, a:focus {
+     color: #FE6868;
+     text-decoration: none;
+}
+/*/
+///////////////////////////////////////////////////////////////////////////
+/*/
+ .description {
+     background: radial-gradient(at top, #5F5F5F, #393939);
+     border-bottom: solid 6px #FE6868;
+}
+ #description {
+     text-align: center;
+     color: #fff;
+     font-size: 1.2em;
+     font-weight: 1;
+     letter-spacing: 1px;
+}
+ .descrRow {
+     padding: 35px;
+}
+/*/
+///////////////////////////////////////////////////////////////////////////
+/*/
+ #banner {
+     background: radial-gradient(at top, #F2F9A9, #20767B);
+     height: 20em;
+     color: #616161;
+     font-size: 1.3em;
+     text-align: center;
+     position: relative;
+}
+ #banner header {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     background: #212121;
+     background: rgba(27, 27, 27, 0.75);
+     color: #fff;
+     padding: 1.5em 0;
+}
+ #banner header h2 {
+     letter-spacing: -1px;
+     font-weight: 100;
+     display: inline-block;
+     margin: 0;
+}
+ #banner header h2 em {
+     opacity: 0.75;
+}
+ #banner header .button {
+     vertical-align: middle;
+     margin-left: 1em;
+}
+/*/
+///////////////////////////////////////////////////////////////////////////
+/*/
+ #highlights {
+     text-align: center;
+     margin-top: 30px;
+     margin-bottom: 50px;
+}
+ #highlights img {
+     max-height: 170px;
+     margin: 30px 0 10px 0;
+     border-radius: 100px;
+     box-shadow: 0 0 10px #666;
+}
+ #highlights p{
+     letter-spacing: 1px;
+     font-weight: 400;
+     color: #616161;
+     font-size: 1.1em;
+     margin-top: 20px;
+}
+/*/
+///////////////////////////////////////////////////////////////////////////
+/*/
+/*carousel*/
+ .carousel-caption {
+     margin-bottom: 10px;
+     font-weight: 100;
+}
+ .carousel-inner > .item > img {
+     margin: auto;
+}
+/*/
+///////////////////////////////////////////////////////////////////////////
+/*/
+ .reviews {
+     border-top: solid 6px #FE6868;
+     text-align: center;
+     background: radial-gradient(at top, #F2F9A9, #20767B);
+     position: relative;
+}
+ #reviews {
+     padding-bottom: 170px;
+}
+ #reviews iframe {
+     margin: 15px 0 0 0;
+     box-shadow: 0 0 10px #666;
+     max-width: 100%;
+     border: 0;
+}
+ #reviews p {
+     letter-spacing: 1px;
+     font-weight: 400;
+     color: #fff;
+     font-size: 1.1em;
+}
+ .rev_caption {
+     font-size: 3em;
+     margin: 40px 0 10px 0;
+     font-weight: 600;
+     color: #fff;
+     letter-spacing: 4px;
+}
+ .reviews header {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     background: #212121;
+     background: rgba(27, 27, 27, 0.75);
+     color: #fff;
+     padding: 1.5em 0;
+}
+ .reviews header h2 {
+     letter-spacing: -1px;
+     font-weight: 100;
+     display: inline-block;
+     margin: 0;
+}
+ .reviews header h2 em {
+     opacity: 0.75;
+}
+ .reviews header .button {
+     vertical-align: middle;
+     margin-left: 1em;
+     font-size: 1.2em;
+}
+/*/
+///////////////////////////////////////////////////////////////////////////
+/*/
+ .payment {
+     background: #fff;
+     background-image: url(../images/header/bg02.png), url(../images/header/bg02.png), url(../images/header/bg01.png);
+     background-position: top left, top left, top left;
+     background-size: 100% 6em, 100% 6em, auto;
+     background-repeat: no-repeat, no-repeat, repeat;
+}
+ #payment {
+     text-align: center;
+     padding-top: 30px;
+     padding-bottom: 50px;
+}
+ #payment img {
+     margin: 30px 0 10px 0;
+     box-shadow: 0 0 10px #666;
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+}
+ #payment p{
+     letter-spacing: 1px;
+     font-weight: 400;
+     color: #616161;
+     font-size: 1.1em;
+     margin-top: 20px;
+}
+/*/
+///////////////////////////////////////////////////////////////////////////
+/*/
+ .footer {
+     background: radial-gradient(at top, #2A2A2A, #000000);
+}
+ #footer {
+     text-align: center;
+     padding-top: 30px;
+     color: #fff;
+}
+ #footer iframe {
+     max-width: 100%;
+     box-shadow: 0 0 20px #D1D1D1;
+}
+ .contacts {
+     text-align: left;
+    /*margin-left: 60px;
+    */
+     font-size: 1.5em;
+     letter-spacing: 1px;
+     font-weight: 100;
+}
+ .fText {
+     font-size: 12px;
+     padding: 30px 0 10px 0;
+     letter-spacing: 1px;
+     font-weight: 300;
+     font-style: italic;
+}
+ .social {
+     font-size: 1.8em;
+}
+ .social a{
+     color: #fff;
+}
+/*/
+///////////////////////////////////////////////////////////////////////////
+/*/
+/*Обратная связь*/
+ #form,#communication {
+     max-width: 320px;
+     margin: auto; 
+     position: relative;
+     background: rgba(62, 158, 207, 0.7);
+     padding: 50px 20px;
+     text-align: center;
+     border-radius: 5px;
+}
+ form input {
+     padding: 10px 0 10px 28px;
+     margin-top: 10px;
+     border-radius: 5px;
+     border: solid 2px #fff;
+     background: none;
+     color: #fff;
+     letter-spacing: 1px;
+     font-weight: 400;
+     font-size: 0.9em;
+     width: 213px;
+     max-width: 213px;
+}
+ form input::placeholder,textarea::placeholder {
+     color: #DEDEDE;
+}
+ form button {
+     background: #3E9ECF;
+     padding: 10px;
+     margin-top: 10px;
+     border-radius: 5px;
+     color: #fff;
+     border: none;
+     letter-spacing: 1px;
+     font-weight: 400;
+     font-size: 0.9em;
+     border: solid 2px #fff;
+     width: 213px;
+}
+ .fa-mobile:before {
+     color: #fff;
+     font-size: 2.0em;
+     position: absolute;
+     top: 47%;
+     left: 20%;
+}
+ .fa-user:before {
+     color: #fff;
+     font-size: 1.6em;
+     position: absolute;
+     top: 27%;
+     left: 19.5%;
+}
+ form .fa-envelope:before {
+     color: #fff;
+     font-size: 1.6em;
+     position: absolute;
+     top: 67.5%;
+     left: 18.5%;
+}
+ .fa-pencil:before {
+     color: #fff;
+     font-size: 1.6em;
+     position: absolute;
+     top: 16%;
+     left: 19.5%;
+}
+ textarea {
+     padding: 10px 0 10px 28px;
+     margin-top: 10px;
+     border-radius: 5px;
+     border: solid 2px #fff;
+     background: none;
+     color: #fff;
+     letter-spacing: 1px;
+     font-weight: 400;
+     font-size: 0.9em; 
+     max-width: 213px;
+     min-width: 213px;
+     min-height: 45px;
+     max-height: 260px;
+     height: 90px;
+}
+ #communication .fa-mobile:before {
+     top: 54.5%;
+     left: 20%;
+}
+ #communication .fa-user:before {
+     top: 42.5%;
+     left: 19.5%;
+} 
